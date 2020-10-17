@@ -17,3 +17,8 @@ docker-compose up -d
  ```shell
 docker-compose down
 ```
+
+Чтобы быть уверенным, что используется самая актуальная версия сервера имеет смысл использовать `docker-compose pull` перед запуском приложения:
+ ```shell
+docker-compose pull && docker-compose up -d
+```
